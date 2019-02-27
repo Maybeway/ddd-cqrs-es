@@ -1,0 +1,35 @@
+{
+    "name": "maybeway/ddd-cqrs-es",
+    "type": "library",
+    "description": "PHP definition of DDD, using CQRS + Event sourcing",
+    "keywords": ["ddd", "cqrs", "es", "command bus", "event bus", "event repository", "aggregate"],
+    "homepage": "https://github.com/Maybeway/ddd-cqrs-es.git",
+    "license": "MIT",
+    "source": {
+        "url": "https://github.com/Maybeway/ddd-cqrs-es.git",
+        "type": "git",
+        "reference": "master"
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Michal Koričanský",
+            "email": "michal.koricansky@maybeway.com",
+            "homepage": "http://michalkoricansky.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maybeway\\Domain\\": "src/Domain/",
+            "Maybeway\\Command\\": "src/Command/",
+            "Maybeway\\Event\\": "src/Event/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ramsey\\Uuid\\Test\\": "tests/"
+        }
+    }
+}
