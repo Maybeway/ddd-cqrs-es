@@ -16,7 +16,7 @@
     "authors": [
         {
             "name": "Michal Koričanský",
-            "email": "michal.koricansky@maybeway.com",
+            "email": "michal.koricansky@gmail.com",
             "homepage": "http://michalkoricansky.com/"
         }
     ],
@@ -25,11 +25,6 @@
             "Maybeway\\Domain\\": "src/Domain/",
             "Maybeway\\Command\\": "src/Command/",
             "Maybeway\\Event\\": "src/Event/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Ramsey\\Uuid\\Test\\": "tests/"
         }
     }
 }
